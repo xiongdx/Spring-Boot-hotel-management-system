@@ -1,0 +1,37 @@
+# IDE相关
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 编译输出
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# 日志文件
+*.log
+
+# 前端依赖（重要！）
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# 上传文件目录
+upload/
+
+# 数据库文件（如果有的话）
+*.db
+*.sqlite
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Spring Boot特定文件
+application.properties
+application-dev.properties
+application-prod.properties
